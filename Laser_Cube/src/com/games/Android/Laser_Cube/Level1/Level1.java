@@ -26,6 +26,8 @@ public class Level1 implements Screen
 	{
 		this.init = init;
 		
+		System.out.println("Hello world!");
+		
 		prefs = Gdx.app.getPreferences("my-preferences");
 
         simulation = new Simulation( this, main, prefs.getBoolean( "help_level_1", true ) );
